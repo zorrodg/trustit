@@ -1,0 +1,28 @@
+{
+  "name": "trustit",
+  "version": "0.0.1-0",
+  "description": "Check website contents for potentially fake news",
+  "main": "lib/index.js",
+  "repository": "github:zorrodg/trustit",
+  "author": "Andres Zorro <zorrodg@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "trustit": "node ./bin/trustit.js"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "debug": "^2.6.0",
+    "firebase-admin": "^4.0.4",
+    "node-fetch": "^1.6.3",
+    "url": "^0.11.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3",
+    "yarn": "*"
+  },
+  "config": {
+    "databaseURL": "https://trustit-8c1f9.firebaseio.com/",
+    "uid": "update-fake-news"
+  }
+}
