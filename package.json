@@ -13,7 +13,7 @@
     "cheerio": "^0.22.0",
     "debug": "^2.6.0",
     "firebase-admin": "^4.0.4",
-    "node-fetch": "^1.6.3",
+    "node-fetch": "^2.6.1",
     "url": "^0.11.0"
   },
   "engines": {
